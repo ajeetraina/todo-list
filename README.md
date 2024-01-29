@@ -8,3 +8,4 @@
 - [Secrets](https://github.com/ajeetraina/todo-list/blob/main/secrets/README.md)
 - [Docker Compose](https://github.com/ajeetraina/todo-list/blob/main/compose/README.md)
 - [Compose with Data Persistence](https://github.com/ajeetraina/todo-list/blob/main/compose/README.md)
+- [Docker Scout](https://github.com/ajeetraina/todo-list/blob/main/scout/README.md)
