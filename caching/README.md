@@ -8,7 +8,7 @@ Let's look at the Dockerfile we were using one more time...
 
 
 ```
-FROM node:18-alpine
+FROM node:21-alpine
 WORKDIR /app
 COPY . .
 RUN yarn install --production
@@ -23,7 +23,7 @@ Update the Dockerfile to copy in the package.json first, install dependencies, a
 
 
 ```
-FROM node:18-alpine
+FROM node:21-alpine
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn install --production
@@ -55,10 +55,10 @@ You should see output like this...
 => => transferring dockerfile: 175B                                                               0.0s
 => [internal] load .dockerignore                                                                  0.0s
 => => transferring context: 2B                                                                    0.0s
-=> [internal] load metadata for docker.io/library/node:18-alpine                                  0.0s
+=> [internal] load metadata for docker.io/library/node:21-alpine                                  0.0s
 => [internal] load build context                                                                  0.8s
 => => transferring context: 53.37MB                                                               0.8s
-=> [1/5] FROM docker.io/library/node:18-alpine                                                    0.0s
+=> [1/5] FROM docker.io/library/node:21-alpine                                                    0.0s
 => CACHED [2/5] WORKDIR /app                                                                      0.0s
 => [3/5] COPY package.json yarn.lock ./                                                           0.2s
 => [4/5] RUN yarn install --production                                                           14.0s
@@ -80,10 +80,10 @@ Build the Docker image now using docker build -t getting-started . again. This t
 => => transferring dockerfile: 37B                                                                0.0s
 => [internal] load .dockerignore                                                                  0.0s
 => => transferring context: 2B                                                                    0.0s
-=> [internal] load metadata for docker.io/library/node:18-alpine                                  0.0s
+=> [internal] load metadata for docker.io/library/node:21-alpine                                  0.0s
 => [internal] load build context                                                                  0.2s
 => => transferring context: 450.43kB                                                              0.2s
-=> [1/5] FROM docker.io/library/node:18-alpine                                                    0.0s
+=> [1/5] FROM docker.io/library/node:21-alpine                                                    0.0s
 => CACHED [2/5] WORKDIR /app                                                                      0.0s
 => CACHED [3/5] COPY package.json yarn.lock ./                                                    0.0s
 => CACHED [4/5] RUN yarn install --production                                                     0.0s
