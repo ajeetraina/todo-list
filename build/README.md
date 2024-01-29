@@ -8,10 +8,11 @@
 
 
 ```
- docker images
- REPOSITORY                   TAG               IMAGE ID       CREATED          SIZE
- todo-list-app              latest            081aa870e786   52 minutes ago     346MB
+ docker images
+REPOSITORY                            TAG               IMAGE ID       CREATED          SIZE
+ajeetraina/tod                        latest            895dd0758057   7 seconds ago    1.77GB
 ```
+
 
 ## Running the container
 

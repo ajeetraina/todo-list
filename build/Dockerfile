@@ -1,5 +1,9 @@
-FROM node:21-alpine
+FROM node:21
+
 WORKDIR /app
+COPY package*.json ./
+RUN npm install
 COPY . .
-RUN yarn install --production
-CMD ["node", "src/index.js"]
+EXPOSE 3000
+CMD ["npm", "start"]
+
