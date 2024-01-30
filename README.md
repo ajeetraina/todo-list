@@ -8,6 +8,7 @@
 - [Secrets](https://github.com/ajeetraina/todo-list/blob/main/secrets/README.md)
 - [Docker Compose](https://github.com/ajeetraina/todo-list/blob/main/compose/README.md)
   -  [Adding Mongo to Compose Service Lists and replacing MySQL](https://github.com/ajeetraina/todo-list/blob/main/using-compose/using-mongo/README.md)
+  -  [Adding Mongo Express](https://github.com/ajeetraina/todo-list/blob/main/using-compose/mongoexpress/docker-compose.yml)
 - [Compose with Data Persistence](https://github.com/ajeetraina/todo-list/blob/main/compose/README.md)
 - [Docker Scout](https://github.com/ajeetraina/todo-list/blob/main/scout/README.md)
 
