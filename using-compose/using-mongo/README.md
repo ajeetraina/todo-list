@@ -38,4 +38,24 @@ items
 node-mongo>
 ```
 
+```
+db.items.find()
+[
+  {
+    _id: ObjectId('65b8b820e9f51f3c974aa700'),
+    title: 'Watch Netflix',
+    description: 'Renew the netflix account',
+    date: ISODate('2024-01-30T08:49:36.151Z'),
+    __v: 0
+  },
+  {
+    _id: ObjectId('65b8b84be9f51f3c974aa703'),
+    title: 'Buy Grocery',
+    description: 'Carry purse and buy grocery',
+    date: ISODate('2024-01-30T08:50:19.520Z'),
+    __v: 0
+  }
+]
+```
+
 
