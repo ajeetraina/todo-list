@@ -1,4 +1,7 @@
-# todo-list
+# The to-do List App Showcase
+
+This repository explains various aspects of Docker core concepts like building an image, caching, Multi-stage builds, secrets, multi-container apps and so on.
+
 
 
 - [Building](https://github.com/ajeetraina/todo-list/blob/main/build/README.md)
