@@ -14,7 +14,7 @@ This repository explains various aspects of Docker core concepts like building a
 - [Multiarch](https://github.com/ajeetraina/todo-list/blob/main/multiarch/README.md)
 - [Secrets](https://github.com/ajeetraina/todo-list/blob/main/secrets/README.md)
 
-##  [Docker Compose](https://github.com/ajeetraina/todo-list/blob/main/compose/README.md)
+##  [Docker Compose](https://github.com/ajeetraina/todo-list/blob/main/using-compose/README.md)
 
 <img width="469" alt="image" src="https://github.com/ajeetraina/todo-list/assets/313480/b6c803e5-4de1-451a-9d59-7ec3e0d59712">
 
