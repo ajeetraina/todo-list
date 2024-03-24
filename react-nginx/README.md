@@ -29,8 +29,8 @@ To spin up the project, simply install Docker Desktop and then run the following
 commands:
 
 ```
-git clone https://github.com/docker/getting-started-todo-app
-cd getting-started-todo-app
+git clone https://github.com/ajeetraina/todo-list
+cd todo-list
 docker compose up -d
 ```
 
