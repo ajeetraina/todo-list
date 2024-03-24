@@ -1,6 +1,6 @@
 ## Using Compose
 
-##Prerequ
+## Prereq
 
 Change the port to 3001 in the compose file so that it doesn't conflict with the existing todo list based on the `build` directory.
 
