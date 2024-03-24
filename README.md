@@ -29,7 +29,7 @@ This repository explains various aspects of Docker core concepts like building a
 <img width="474" alt="image" src="https://github.com/ajeetraina/todo-list/assets/313480/da5a0b1c-9051-495f-99fc-ac984cda198b">
 
 
-## [React/TypeScript + Nginx + Node.js + Mongo]()
+## [React/TypeScript + Nginx + Node.js + Mongo](https://github.com/ajeetraina/todo-list/blob/main/react-nginx/README.md)
 
 <img width="949" alt="image" src="https://github.com/ajeetraina/todo-list/assets/313480/b54976ee-55ae-405c-b09e-7f5450d68da5">
 
