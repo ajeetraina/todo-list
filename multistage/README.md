@@ -1,7 +1,7 @@
 ## Build the Docker Image
 
 ```
- docker build -t todo-list-app -f Dockerfile
+ docker build -t todo-list-app . -f Dockerfile
 ```
 
 ## Listing the images
