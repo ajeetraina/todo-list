@@ -30,7 +30,7 @@ commands:
 
 ```
 git clone https://github.com/ajeetraina/todo-list
-cd todo-list
+cd todo-list/react-nginx/
 docker compose up -d
 ```
 
