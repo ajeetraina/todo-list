@@ -13,6 +13,12 @@
 <img width="1143" alt="image" src="https://github.com/ajeetraina/todo-list/assets/313480/f93d4da7-ecfb-4242-910f-265957d98225">
 
 
+For Mongo Express:
+
+Username: admin
+Password: pass
+
+
 ## Interacting with Mongo using Docker Dashboard Container Console
 
 
