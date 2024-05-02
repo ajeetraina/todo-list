@@ -18,3 +18,11 @@ You can use `docker buildx` to build multi-architecture platform Docker Image
 ```
  linux/amd64
 ```
+
+## Try running it on your new Apple Laptop
+
+```
+docker run -d -p 3003:3000 todo-multiarch
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+895ea3e02d38a19c56ad1d15493d681091310fbbbd00031cf2c5d803a787a542
+```
