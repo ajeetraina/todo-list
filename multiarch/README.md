@@ -26,3 +26,10 @@ docker run -d -p 3003:3000 todo-multiarch
 WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
 895ea3e02d38a19c56ad1d15493d681091310fbbbd00031cf2c5d803a787a542
 ```
+
+
+## Try building it for multiple platforms
+
+``1
+docker buildx build --platform linux/amd64,linux/arm64 -t todo-multiarch .
+```
