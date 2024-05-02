@@ -27,6 +27,12 @@ Open https://localhost:3000 to access the todo-list app.
 <img width="668" alt="image" src="https://github.com/ajeetraina/todo-list/assets/313480/9c63f847-3ca6-491a-aca2-1bcb593e63cb">
 
 
+## Verifying the architecture of the image
+
+```
+docker image inspect todo-list-app  --format '{{ .Os }}/{{ .Architecture }}'
+```
+
 ## Explanation of src/index.js
 
 The index.js is a well-structured Express.js application that implements CRUD (Create, Read, Update, Delete) operations on items using a persistence layer (db). Here's a breakdown of the code:
