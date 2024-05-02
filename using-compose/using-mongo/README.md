@@ -22,6 +22,10 @@ Password: pass
 ## Interacting with Mongo using Docker Dashboard Container Console
 
 
+```
+mongosh --username ajeetraina --password ajeetraina123 --authenticationDatabase admin
+```
+
 <img width="1172" alt="image" src="https://github.com/ajeetraina/todo-list/assets/313480/8e4486c5-807d-46a1-9159-500c7ef20c0b">
 
 
